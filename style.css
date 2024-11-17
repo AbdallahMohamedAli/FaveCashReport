@@ -3,10 +3,25 @@
     padding: 0;
     background: #111;
     font-family: 'Hacen Tunisia Lt';
+    
+}
+
+table ,tbody, thead, h6, button {
+    font-size: 16px;
+    /* font-weight: 400; */
+    color: #FFF;
+    width: fit-content;
+}
+input {
+    font-size: 14px;
 }
 
 
 
+h6 {
+    text-align: center;
+    padding: 5px;
+}
 .project {
     width: 90%;
     height: 100vh;
@@ -21,6 +36,7 @@ button {
     border:none;
     padding: 5px 5px;
 }
+
 
 button:hover {
     background: #111;
@@ -48,7 +64,7 @@ button:hover {
     margin: 10px;
     text-align: right;
     letter-spacing: 1px;
-    
+    color: #fff;
 }
 /* #logo {
     width: 80px;
@@ -175,6 +191,7 @@ input {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    justify-items: center;
     gap: 1px;
     box-shadow: 0 0 20px #9452eb;
     border-radius: 20px;
@@ -217,7 +234,7 @@ table #vv {
 .info h6 {
     font-weight: 100;
     font-size: 14px;
-    
+    text-align: center;
     color:#f6416c ;
 
 }
@@ -239,6 +256,14 @@ table thead th {
     margin: 20px;
     
 }
-table tbody {
+table tbody tbody {
     color: #fff;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #9452eb;
+    border-radius: 5px;
+    
+    
 }

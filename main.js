@@ -1,9 +1,5 @@
 
 //  Variables  =======================>
-// w = window.open();
-//     w.document.write()
-//     w.print();
-//     w.pdf()
 
 let pdf = document.getElementById("pdf_body");
 
@@ -38,13 +34,13 @@ function userData(){
 let Revenue = document.getElementById("revenue");
 
 let total = document.getElementById("expenses");
-total.style.color = "#9452eb ";
+// total.style.color = "#9452eb ";
 
 let sum = document.getElementById("sum")
 
 
 let visa = document.getElementById("visa");
-visa.style.color = '#f6416c';
+// visa.style.color = '#f6416c';
 
 let actualCash = document.getElementById("actualCash");
 
@@ -172,6 +168,16 @@ function addExpenses(){
         showExpensesArray()
         totalExpenses()
         clear()
+        // w = window.open();
+        // w.document.write(
+        
+
+        
+        // )
+        // // w.print();
+        // w.pdf()
+
+        
     }else{
 
     }
